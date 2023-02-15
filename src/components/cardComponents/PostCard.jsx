@@ -1,8 +1,7 @@
 import {Link} from 'react-router-dom';
 import React from 'react'
 import { FiShare } from 'react-icons/fi';
-import posts from '../assets/data/posts.data.json';
-import PostImage from '../../assets/image/post_image_1.png';
+import posts from '../../assets/data/posts.data.json';
 
 function PostCard() {
   return (
@@ -30,7 +29,7 @@ function PostCard() {
            laptop:w-[393px] laptop:h-[200px]
            desktop:w-[390px] shadow-lg'
            title={post.title}
-           src='https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/story/10667/usatsi_19991291_1300w.png' alt={post.title} />
+           src={post.postImg} alt={post.title} />
          </div>
        <div className='flex flex-col justify-between tablet:gap-[2rem] laptop:gap-[4rem]'>
          <div className='tablet:ml-2 tablet:mt-1 laptop:flex'>

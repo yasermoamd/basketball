@@ -1,0 +1,64 @@
+[
+{
+    "id": 1,
+    "profileImage": "https://cdn.basketballnews.com/fit-in/56x0/filters:strip_exif():filters:quality(95)/images/authors/47/267x367-1_120w.jpg",
+    "username": "Rex Chapman",
+    "title":"Podcaster"
+},
+{
+    "id": 2,
+    "profileImage": "https://cdn.basketballnews.com/fit-in/56x0/filters:strip_exif():filters:quality(95)/images/authors/17/kenyon-martin_120w.jpg",
+    "username": "Kenyon Martin",
+    "title":"Writer & Podcaster"
+},
+{
+    "id": 3,
+    "profileImage": "https://cdn.basketballnews.com/fit-in/56x0/filters:strip_exif():filters:quality(95)/images/authors/1/alex-kennedy_120w.jpg",
+    "username": "Alex Kennedy",
+    "title":"Chief Content Officer"
+},
+{
+    "id": 4,
+    "profileImage": "https://cdn.basketballnews.com/fit-in/56x0/filters:strip_exif():filters:quality(95)/images/authors/11/nekias-duncan_120w.jpg",
+    "username": "Nekias Duncan",
+    "title":"Writer & Podcaster"
+},
+{
+    "id": 5,
+    "profileImage": "https://cdn.basketballnews.com/fit-in/56x0/filters:strip_exif():filters:quality(95)/images/authors/6/etan-thomas_120w.jpg",
+    "username": "Etan Thomas",
+    "title":"Senior Writer & Podcaster"
+},
+{
+    "id": 6,
+    "profileImage": "https://cdn.basketballnews.com/fit-in/56x0/filters:strip_exif():filters:quality(95)/images/authors/2/james-posey_120w.jpg",
+    "username": "James Posey",
+    "title":"Writer & Podcaster"
+},
+
+{
+    "id": 7,
+    "profileImage": "https://cdn.basketballnews.com/fit-in/56x0/filters:strip_exif():filters:quality(95)/images/authors/107/mat2_120w.png",
+    "username": "Mat Issa",
+    "title":"Contributor"
+},
+
+{
+    "id": 8,
+    "profileImage": "https://cdn.basketballnews.com/fit-in/56x0/filters:strip_exif():filters:quality(95)/images/authors/8/spencer-davies_120w.jpg",
+    "username": "Spencer Davies",
+    "title":"Senior Editor & Writer "
+},
+{
+    "id": 9,
+    "profileImage": "https://cdn.basketballnews.com/fit-in/56x0/filters:strip_exif():filters:quality(95)/images/authors/53/img_6750-1_120w.jpg",
+    "username": "Imman Adan",
+    "title":"Writer & Podcaster"
+},
+{
+    "id": 10,
+    "profileImage": "https://cdn.basketballnews.com/fit-in/56x0/filters:strip_exif():filters:quality(95)/images/authors/78/42d29423-da54-4021-b8ba-fedaafb36894_120w.jpeg",
+    "username": "Evan Sidery",
+    "title":"Writer"
+}
+]

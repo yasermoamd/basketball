@@ -10,8 +10,8 @@ export const MoreNav = () => {
       const [isOpen, setIsOpen] = useState(false);
       return (
             <>
-                  <div className='flex flex-col justify-center items-center gap-2'>
-                        <BsThreeDots className='w-[25px] h-[25px] hover:cursor-pointer shadow-2xl' color={icon_color} onClick={() => setIsOpen(!isOpen)} />
+                  <div className='flex flex-col justify-center items-center gap-2'   onClick={() => setIsOpen(!isOpen)}>
+                        <BsThreeDots className='w-[25px] h-[25px] hover:cursor-pointer shadow-2xl' color={icon_color} />
                         <p className='font-serif text-[12px] hover:cursor-pointer text-[#c7c5c7]'>More</p>
                   </div>
                   <PortalModel open={isOpen} style={styles.more_nav_style}>

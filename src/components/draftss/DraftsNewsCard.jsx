@@ -8,7 +8,7 @@ function DraftsNewsCard() {
   return (
     <div className='laptop:grid laptop:grid-cols-1 laptop:gap-4'>
        {
-        posts.map((post ) => (
+        posts.slice(0, 3).map((post ) => (
              <div key={post.id}
              className='
              w-[14rem] p-0 h-[16rem]

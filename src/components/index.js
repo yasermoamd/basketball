@@ -16,12 +16,13 @@ import { FilterIconsButton } from './filterscomponents/FilterIconsButton';
 import Searchbar from './filterscomponents/Searchbar';
 import DraftCard from './cardComponents/DraftCard'
 import GamesCard from './cardComponents/GamesCard';
-import NewsTitle from './cardComponents/NewsTitle' 
-import Staff from './cardComponents/Staff';
+import FollowButton from './cardComponents/FollowButton' 
 import PostCard from './cardComponents/PodcastCard';
 import { MiniCard } from './cardComponents/GamesCard';
-import {RandomImage} from './cardComponents/FeaturedStaff';
-import DraftsNewsCard from './draftss/DraftsNewsCard'
+import   RandomImage   from "./cardComponents/RandomImage";
+import DraftsNewsCard from './draftss/DraftsNewsCard';
+import UserCircleComponents from './cardComponents/UserCircleComponents';
+import NewsPagination from './filterscomponents/NewsPagination'
 export { 
     Navbar,
     Login,
@@ -42,9 +43,10 @@ export {
     DraftCard,
     DraftsNewsCard,
     GamesCard,
-    NewsTitle,
-    Staff,
+    FollowButton,
     PostCard,
     MiniCard,
     RandomImage,
+    UserCircleComponents,
+    NewsPagination
  }
