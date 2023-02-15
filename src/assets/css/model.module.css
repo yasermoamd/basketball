@@ -1,0 +1,18 @@
+.more_nav_style {
+    @layer
+    @apply laptop:absolute laptop:top-[10rem] laptop:left-[4.6rem] laptop:bg-[#282828] 
+    laptop:w-[190px] h-[507px]
+}
+
+.filter_box_btn {
+    @layer
+    @apply laptop:absolute laptop:top-[7.9rem] laptop:left-[55rem] laptop:bg-[#282828] 
+    laptop:w-[200px] h-[80px];
+}
+
+
+.filter_arrow_btn {
+    @layer
+    @apply laptop:absolute laptop:top-[7.9rem] laptop:left-[55rem] laptop:bg-[#282828] 
+    laptop:w-[200px] h-[80px];
+}

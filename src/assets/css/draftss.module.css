@@ -1,0 +1,20 @@
+.main_dsesktop {
+     
+}
+.main_laptop {
+    @apply laptop:ml-[4.5rem] flex gap-4 p-2
+}
+.main_tablet {
+
+}
+.main_mobile {}
+
+.post_card_laptop {
+    @apply laptop:grid laptop:grid-cols-3 laptop:gap-4
+}
+.drafts_news_col_3{
+   @apply desktop:grid desktop:grid-cols-3 desktop:gap-4
+}
+.drafts_news_col_1{
+    @apply desktop:grid desktop:grid-cols-1 desktop:gap-[4rem]
+}
