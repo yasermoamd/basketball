@@ -19,10 +19,12 @@ function FilterCard() {
        <h2 className='text-[15px] font-[Rubik-Bold] font-bold tracking-[2px] text-[#d8d8d8]'>Filter</h2>
        </div>
 
-       <PortalModel open={isOpen} style={styles.filter_box_btn}>
+       <div className='flex justify-center'>
+       <PortalModel open={isOpen} style={styles.filter_arrow_btn}>
             <DropdowFilter />
         </PortalModel>
 
+       </div>
        <FilterIconsButton />
  </div>
   )

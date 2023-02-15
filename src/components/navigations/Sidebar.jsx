@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import { MoreNav } from './MoreNav';
 import { sidebar_icons } from '../../assets/data/icons_data';
   
@@ -13,7 +13,7 @@ function Sidebar() {
                         <div className='flex flex-col justify-center items-center gap-2' key={side.id}>
                         <side.icon  className='w-[22px] h-[22px] mb-1 hover:cursor-pointer shadow-2xl' color='white'  />
                         <p className='font-serif text-[12px] hover:cursor-pointer text-[#c7c5c7]'>
-                              <Link to={side.link}>{side.title}</Link>
+                              <NavLink to={side.link}>{side.title}</NavLink>
                         </p>
                         </div>
                   ))

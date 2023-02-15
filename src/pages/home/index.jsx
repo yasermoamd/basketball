@@ -1,11 +1,12 @@
 import React from 'react' 
- import {  FeaturedStaff, NewsPagination,  Footer, UserCircleComponents } from '../../components' 
+ import {  FeaturedStaff, NewsPagination,  Footer, UserCircleComponents, Navbar } from '../../components' 
 import PostCard from '../../components/cardComponents/PostCard';
  
 function Home() {
   return (
     
      <main className='flex flex-col gap-[10rem]'>
+      <Navbar />
       <section className='
              desktop:ml-[20rem] desktop:mt-[4rem]
              laptop:ml-[4.5rem] laptop:mt-[4.4rem] tablet:ml-[6.5rem] tablet:mt-[4.6rem]'>
