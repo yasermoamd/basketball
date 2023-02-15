@@ -1,0 +1,4 @@
+.post_card_laptop {
+    @layer
+    @apply laptop:grid laptop:grid-cols-3 laptop:gap-4
+}

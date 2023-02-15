@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "The Rex Chapman Show",
+        "description": "Rex Chapman and Josh Hopkins",
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/15/rex_chapman_podcast.jpg"
+    },
+     
+     
+    {
+        "id": 2,
+        "title": "Neat & Unfiltered",
+        "description": "With Kenyon Martin Sr. & Jadakiss",
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/15/rex_chapman_podcast.jpg"
+    },
+    {
+        "id": 3,
+        "title": "The Rex Chapman Show",
+        "description": "Rex Chapman and Josh Hopkins",
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/15/rex_chapman_podcast.jpg"
+    },
+
+    {
+        "id": 4,
+        "title": "The Rex Chapman Show",
+        "description": "Rex Chapman and Josh Hopkins",
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/15/rex_chapman_podcast.jpg"
+    }
+]

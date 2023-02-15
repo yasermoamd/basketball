@@ -1,27 +1,25 @@
-import './App.css';
-
+import { Route, Routes } from 'react-router-dom';
+import {BottomNavigation, Navbar, Sidebar} from './components';
+ import { Home, Podcasts, NbaNews, Search, NcaaNews, Draftss } from './pages';
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+    <div className=" ">
+       <div className='fixed w-full'><Navbar /></div>
+
+       <div className='tablet'>
+        <Sidebar />
+       </div>
+       <div><BottomNavigation /></div>
+       <Routes>
+        <Route path='/' element={<Home />}  />
+        <Route path='/draftss' element={<Draftss />}  />
+        <Route path='/nba_news' element={<NbaNews />}  />
+        <Route path='/podcasts' element={<Podcasts />}  />
+        <Route path='/nba_news' element={<NbaNews />}  />
+        <Route path='/ncaa_news' element={<NcaaNews />}  />
+        <Route path='/search' element={<Search />}  />
+       </Routes>
     </div>
   );
 }
