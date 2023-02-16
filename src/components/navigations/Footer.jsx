@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { BsYoutube, BsTwitter, BsInstagram } from 'react-icons/bs';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 
 const basketball_news_list = [
 { id: 1, title: "Home",link:"#"},
@@ -35,11 +35,13 @@ function Footer() {
  
   }
   return (
-    <main className='bg-[#282828] desktop:w-[50rem] desktop:h-[40rem] mb-[4rem] shadow-md rounded-md'>
+    <main className='
+    laptop:w-[50rem] laptop:h-[40rem] laptop:mb-[4rem] laptop:ml-[12rem]
+     bg-[#282828] desktop:w-[50rem] desktop:h-[40rem] mb-[4rem] shadow-md rounded-md'>
          {FooterFirstSection()}
         {FooterNavMenu()}
         {FooterSocialIcon()}
-
+        <Outlet />
     </main>
   )
 
@@ -54,7 +56,7 @@ function Footer() {
         <img title='DownLoad Our Android App Link' src="https://cdn.basketballnews.com/fit-in/120x0/filters:strip_exif():filters:quality(95)/images/assets/google_play_badge.png" alt="" />
       </div>
       <div className='flex flex-col justify-center items-center mt-[8rem]'>
-        <p className='text-[#797979] text-[12px]'>Copyright © BasketballNews.com 2023. All Rights Reserved.</p>
+        <p className='text-[#797979] text-[12px] mb-4'>Copyright © BasketballNews.com 2023. All Rights Reserved.</p>
       </div>
     </div>;
   }
@@ -82,11 +84,11 @@ function Footer() {
   }
 
   function FooterFirstSection() {
-    return <section className='flex justify-between items-center mx-8'>
-      <div className='flex flex-col justify-center items-center gap-4 mt-4'>
-        <h2 className='font-bold text-[#d8d8d8] text-[18px]'>Subscribe to our newsletter</h2>
+    return <section className='flex justify-around items-center'>
+      <div className='flex flex-col justify-start items-center gap-4 mt-4'>
+        <h2 className='font-bold flex justif-start text-[#d8d8d8] text-[18px]'>Subscribe to our newsletter</h2>
         <div className='flex gap-4 justify-center items-center' title='News letter form'>
-          <div className=' border border-[#d8d8d8] w-[350px] h-[50px] bg-transparent'>
+          <div className=' border border-[#d8d8d8] laptop:w-[330px] desktop:w-[350px] h-[50px] bg-transparent'>
             <input
               value={email}
               onChange={handleNewsLetterEmail}

@@ -29,20 +29,20 @@ function NcaaNews() {
         {/* news section */}
         <section className='
           desktop:w-[78.5rem] desktop:mt-4 desktop:rounded-sm desktop:shadow-sm desktop:max-h-screen desktop:bg-[#282828]
-          laptop:w-[78.5rem] laptop:mt-4 laptop:rounded-sm laptop:shadow-sm laptop:max-h-screen laptop:bg-[#282828]'>
+          laptop:w-[78.5rem] laptop:mt-4 laptop:rounded-sm laptop:shadow-sm laptop:min-h-screen laptop:bg-[#282828]'>
             <div className='mx-6 pt-4'>
               <MoreNewsCard title={'More NCAA News Content'} />
             </div>
-            <div className='desktop:mt-8 desktop:p-4'>
+            <div className='desktop:mt-8 desktop:p-4 laptop:p-4 laptop:mt-8'>
             <PostCard />
             </div>
             <div className='flex justify-center'>
                  <NewsPagination />
               </div>
-              <div className='flex justify-center mt-8'>
+         </section>
+         <div className='flex justify-center laptop:mr-[12rem] mt-8'>
                  <Footer />
               </div>
-         </section>
          </section>
        </main>
     )

@@ -1,4 +1,4 @@
- import {Link, NavLink} from 'react-router-dom';
+ import {Link, NavLink, Outlet} from 'react-router-dom';
 import React from 'react'
 import { AiOutlineMenu, AiOutlineSearch } from 'react-icons/ai';
 
@@ -16,6 +16,7 @@ function Navbar() {
            </Link>
            <NavLink to='/search'><AiOutlineSearch title='Search icon' className='w-8 h-8 hover:cursor-pointer' color='white' /></NavLink>
         </div>
+        <Outlet />
     </div>
   )
 }

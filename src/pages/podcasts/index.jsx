@@ -8,7 +8,7 @@ function Podcasts() {
         <div className='
         grid grid-cols-1 justify-center items-center ml-[4rem]
         desktop:flex desktop:justify-center desktop:flex-col
-        laptop:grid laptop:grid-cols-2 laptop:gap-[2rem] laptop:ml-[5rem]  laptop:justify-center laptop:items-center'> 
+        laptop:flex laptop:flex-col laptop:gap-[1rem] laptop:justify-center laptop:items-center'> 
              <div className=''>
              <div className='mt-[4.8rem]'> 
                  <FeaturedStaff title={'PODCASTS'} />
@@ -16,7 +16,7 @@ function Podcasts() {
              <div className="podcast_card">
               <PodcastCard /></div>
              </div>
-             <div className="footer">
+             <div className='laptop:mr-[11.5rem] laptop:mt-8'>
                 <Footer />
              </div>
          </div> 

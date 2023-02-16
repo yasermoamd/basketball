@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom';
+import {NavLink, Outlet} from 'react-router-dom';
 import { MoreNav } from './MoreNav';
 import { sidebar_icons } from '../../assets/data/icons_data';
   
@@ -22,6 +22,7 @@ function Sidebar() {
                     <MoreNav />
               </div>
         </div>
+        <Outlet />
     </div>
   )
 }
