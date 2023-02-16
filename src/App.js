@@ -14,9 +14,6 @@ const router = createBrowserRouter(
         <Route path='/nba_news' element={<NbaNews />}  />
         <Route path='/ncaa_news' element={<NcaaNews />}  />
         <Route path='/search' element={<Search />}  />
-
-        <Route path='/admin' element={<Admin />}  />
-
         <Route path='*' element={<Navigate to='/' />}  />
        </Route>
     )
