@@ -30,7 +30,7 @@ function PostCard({ posts, minLength, maxLength }) {
            title={post.title}
            src={post.postImg} alt={post.title} />
          </div>
-       <div className='flex flex-col justify-between tablet:gap-[2rem] laptop:gap-[4rem]'>
+       <div className='flex flex-col justify-between tablet:gap-[1.8rem] laptop:gap-[3.7rem]'>
          <div className='tablet:ml-2 tablet:mt-1 laptop:flex'>
               <div><h1 title={post.title} className='tablet:ml-3 tablet:text-[16px] tablet:font-[Rubik-Light] text-[#d8d8d8] tablet:font-bold
               laptop:font-bold laptop:font-[Rubik-Light] laptop:text-[24px]'>{post.title}</h1></div>
