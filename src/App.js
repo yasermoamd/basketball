@@ -2,7 +2,6 @@ import React from 'react';
 import { createBrowserRouter, createRoutesFromElements, Navigate, Route, RouterProvider, Routes } from "react-router-dom";
 import { Home, Podcasts, NbaNews, Search, NcaaNews, Draftss } from './pages';
 import Layout from './layout/Layout';
-import Admin from './admin/Admin';
 
 
 const router = createBrowserRouter(
