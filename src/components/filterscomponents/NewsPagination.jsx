@@ -10,7 +10,7 @@ export  default function NewsPagination() {
             </button>
          </div>
          <div className='flex justify-center items-center gap-2 hover:cursor-pointer'>
-            <div className='w-[4rem] h-[3rem] border border-[#050303] font-bold font-mono text-[#d8d8d8] hover:bg-[#d8d8d8] hover:rounded-md hover:font-mono hover:text-[#282828] flex justify-center items-center'>1</div>
+            <div className='w-[4rem] h-[3rem] border border-[#050303] font-bold font-mono text-[#d8d8d8] hover:bg-[#d8d8d8] hover:rounded-md hover:font-mono hover:text-[#282828] rounded-md flex justify-center items-center  transition duration-150 ease-in-out'>1</div>
             <div className='w-[4rem] h-[3rem] bg-[#282828] flex justify-center items-center'>
                <MdKeyboardArrowRight className='w-8 h-8 hover:text-[#d8d8d8]' />
             </div>

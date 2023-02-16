@@ -16,18 +16,18 @@ function Home() {
                     <UserCircleComponents />
                  </div>
             </div>
-            <div className='laptop:w-[78.5rem] desktop:w-[80rem] desktop:h-[160rem] laptop:mt-2 laptop:rounded-sm laptop:shadow-sm laptop:max-h-screen laptop:bg-[#282828]'>
+            <div className='laptop:w-[78.5rem] desktop:w-[80rem] desktop:h-[160rem] laptop:p-4 laptop:mt-2 laptop:rounded-sm laptop:shadow-sm laptop:min-h-screen laptop:bg-[#282828]'>
             <div className='p-4'>
-                   <PostCard />
+                   <PostCard minLength={0} maxLength={9} />
                </div>
-               <div className='flex justify-center'>
-                 <NewsPagination />
-              </div>
-              <div className='desktop:ml-[12rem] desktop:mt-[2rem]'>
-                 <Footer />
-              </div>
             </div>
           </div>
+          <div className='desktop:flex desktop:justify-center laptop:flex laptop:justify-center'>
+                 <NewsPagination />
+              </div>
+              <div className='desktop:ml-[12rem] desktop:mt-[4rem] laptop:mt-[4rem]'>
+                 <Footer />
+              </div>
       </section>
      </main>
   )

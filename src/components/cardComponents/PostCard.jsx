@@ -3,11 +3,11 @@ import React from 'react'
 import { FiShare } from 'react-icons/fi';
 import posts from '../../assets/data/posts.data.json';
 
-function PostCard() {
+function PostCard({ minLength, maxLength }) {
   return (
     <div className='laptop:grid laptop:grid-cols-3 laptop:gap-4'>
        {
-        posts.map((post ) => (
+        posts.slice(minLength, maxLength).map((post ) => (
              <div key={post.id}
              className='
              w-[14rem] p-0 h-[16rem]
