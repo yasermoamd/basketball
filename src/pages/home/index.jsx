@@ -17,7 +17,7 @@ function Home() {
             </div>
             </div>
 
-            <div className='laptop:w-[78.5rem] desktop:w-[80rem] desktop:h-[160rem]
+            <div className='laptop:w-[78.5rem] desktop:w-[80rem] desktop:h-min-h-screen
             laptop:p-4 laptop:mt-1 laptop:rounded-sm laptop:shadow-sm laptop:min-h-screen laptop:bg-[#282828]'>
             <div className='p-4'>
                    <PostCardList minLength={0} maxLength={9} />

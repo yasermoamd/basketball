@@ -1,5 +1,4 @@
-import  { MiniCard, Searchbar, FilterCard, FollowButton, MoreNewsCard, GamesCard, NewsPagination, Footer } from "../../components";
-import PostCard from "../../components/cardComponents/PostCard";
+import  { MiniCard, Searchbar, FilterCard, FollowButton, MoreNewsCard, GamesCard, NewsPagination, Footer, PostCardList } from "../../components";
  
 
 function NcaaNews() {
@@ -34,7 +33,7 @@ function NcaaNews() {
               <MoreNewsCard title={'More NCAA News Content'} />
             </div>
             <div className='desktop:mt-8 desktop:p-4 laptop:p-4 laptop:mt-8'>
-            <PostCard />
+             <PostCardList minLength={0} maxLength={9} />
             </div>
             <div className='flex justify-center'>
                  <NewsPagination />
