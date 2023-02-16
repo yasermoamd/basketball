@@ -23,6 +23,8 @@ import   RandomImage   from "./cardComponents/RandomImage";
 import DraftsNewsCard from './draftss/DraftsNewsCard';
 import UserCircleComponents from './cardComponents/UserCircleComponents';
 import NewsPagination from './filterscomponents/NewsPagination'
+import PostCardList from './cardComponents/PostCardList'
+
 export { 
     Navbar,
     Login,
@@ -48,5 +50,6 @@ export {
     MiniCard,
     RandomImage,
     UserCircleComponents,
-    NewsPagination
+    NewsPagination,
+    PostCardList
  }

@@ -1,9 +1,8 @@
 import {Link} from 'react-router-dom';
 import React from 'react'
 import { FiShare } from 'react-icons/fi';
-import posts from '../../assets/data/posts.data.json';
 
-function PostCard({ minLength, maxLength }) {
+function PostCard({ posts, minLength, maxLength }) {
   return (
     <div className='laptop:grid laptop:grid-cols-3 laptop:gap-4'>
        {
