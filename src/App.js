@@ -3,7 +3,6 @@ import { createBrowserRouter, createRoutesFromElements, Navigate, Route, RouterP
 import { Home, Podcasts, NbaNews, Search, NcaaNews, Draftss } from './pages';
 import Layout from './layout/Layout';
 import Admin from './admin/Admin';
-import AdminLayout from './layout/AdminLayout';
 
 
 const router = createBrowserRouter(
