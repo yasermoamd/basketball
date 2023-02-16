@@ -11,19 +11,39 @@
         "id": 2,
         "title": "Neat & Unfiltered",
         "description": "With Kenyon Martin Sr. & Jadakiss",
-        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/15/rex_chapman_podcast.jpg"
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/12/n-u.png"
     },
     {
         "id": 3,
-        "title": "The Rex Chapman Show",
-        "description": "Rex Chapman and Josh Hopkins",
-        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/15/rex_chapman_podcast.jpg"
+        "title": "Nothing But Bets",
+        "description": "WITH EVAN SIDERY",
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/18/nothing-but-bets-logo.jpg"
     },
 
     {
         "id": 4,
-        "title": "The Rex Chapman Show",
-        "description": "Rex Chapman and Josh Hopkins",
-        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/15/rex_chapman_podcast.jpg"
-    }
+        "title": "The Posecast",
+        "description": "THE JAMES POSEY PODCAST",
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/8/pose-cast-v3.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Dishes & Dimes",
+        "description": "A BASKETBALL PODCAST",
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/9/dishes-and-dimes-4.png"
+    },
+
+   {
+    "id": 6,
+    "title": "The Rematch",
+    "description": "WITH ETAN THOMAS",
+    "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/11/the-raw-truth-2.png"
+   },
+
+{
+    "id": 7,
+    "title": "Keepin' It 94",
+    "description": "WITH SPENCER DAVIES AND BRIAN FRITZ",
+    "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/13/uploads_2f1612281993772-ng4hvig0yr-6397c6a371761e57962dadf814367f90_2fk94-wide.png"
+}
 ]
