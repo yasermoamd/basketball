@@ -46,8 +46,10 @@ function Home() {
            </div>
          </div>
 
-            <div className='laptop:w-[78.5rem] desktop:w-[80rem] desktop:h-min-h-screen
-             laptop:mt-[0.1rem] laptop:rounded-sm laptop:shadow-sm laptop:min-h-screen laptop:bg-[#282828]'>
+            <div className='
+                  laptop:w-[78.5rem] desktop:w-[80rem] desktop:h-min-h-screen
+                  laptop:mt-[0.1rem] laptop:rounded-sm laptop:shadow-sm laptop:min-h-screen 
+                  laptop:bg-[#282828]'>
             <div className='laptop:p-2'>
                    <PostCard
                     posts={posts} 
@@ -55,7 +57,8 @@ function Home() {
                     pagesVisited={pagesVisited} />
                </div>
             </div>
-          <div className='desktop:flex desktop:justify-center laptop:flex laptop:justify-center laptop:mt-[2rem]'>
+          <div className='desktop:flex desktop:justify-center laptop:flex 
+                          laptop:justify-center laptop:mt-[2rem]'>
           <ReactPaginate
                previousLabel={'Previous'}
                nextLabel={'Next'}

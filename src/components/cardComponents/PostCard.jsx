@@ -6,7 +6,7 @@ function PostCard({ posts, pagesVisited,  postPerPage }) {
   return (
     <div className='
      grid grid-cols-1 gap-[2rem] justify-center items-center p-3
-     laptop:grid laptop:grid-cols-3 laptop:gap-[2.8rem]'>
+     laptop:grid laptop:grid-cols-3 laptop:gap-[2rem]'>
        {
         posts.slice(pagesVisited, pagesVisited + postPerPage).map((post ) => (
              <div key={post.id}

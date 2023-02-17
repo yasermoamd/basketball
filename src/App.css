@@ -2,3 +2,9 @@
   background-color: #181818;
   scrollbar-width: thin;
 }
+
+#root::-webkit-scrollbar {
+  overflow-y: auto;
+  	width: 6px;
+    background-color: #181818;
+}
