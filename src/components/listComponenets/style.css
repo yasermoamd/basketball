@@ -1,9 +1,9 @@
-#scroll-thin {
-    overflow-y: auto;
+.components_scroll {
+	overflow-y: scroll;
     overflow-x: hidden;
 }
 
-#scroll-thin::-webkit-scrollbar {
-    scrollbar-width: thin;
-
+.components_scroll::-webkit-scrollbar {
+	width: 6px;
+    background-color: #181818;
 }
