@@ -1,6 +1,6 @@
 import { BiPodcast, BiHomeAlt } from 'react-icons/bi';
 import { HiOutlineUserGroup, HiOutlineNewspaper } from 'react-icons/hi';
-import { MdOutlineSportsScore, MdOutlineHearing, MdRealEstateAgent, MdEmail } from 'react-icons/md';
+import { MdOutlineHearing, MdRealEstateAgent, MdEmail } from 'react-icons/md';
 import { CiBasketball, CiShoppingCart } from 'react-icons/ci';
 import { ImStatsDots } from 'react-icons/im';
 import { AiOutlineLineChart } from 'react-icons/ai';

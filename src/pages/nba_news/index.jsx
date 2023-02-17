@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useEffect, useState} from "react";
 import  { MiniCard, Searchbar, FilterCard, FollowButton, MoreNewsCard, GamesCard, Footer } from "../../components";
 import PostCard from "../../components/cardComponents/PostCard";
 import postsJson from '../../assets/data/posts.data.json';
@@ -6,11 +6,15 @@ import './nba.module.css';
 import ReactPaginate from 'react-paginate';
 
 function NbaNews() {
-   const [posts, setPosts ] = useState(postsJson.slice(0, postsJson.length));
+   const [posts, setPosts ] = useState([]);
    const [pageNumber, setPageNUmber ] = useState(0);
 
    const postPerPage = 9;
    const pagesVisited = pageNumber * postPerPage;
+
+   useEffect(() => {
+      setPosts(postsJson.slice(0, postsJson.length));
+   }, [])
 
    const pageCount = Math.ceil(posts.length / postPerPage);
    const changePage = ({ selected }) => {

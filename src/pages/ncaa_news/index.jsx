@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useEffect, useState} from "react";
 import  { MiniCard, Searchbar, FilterCard, FollowButton, MoreNewsCard, GamesCard, Footer } from "../../components";
 import postsJson from '../../assets/data/posts.data.json';
 import PostCard from '../../components/cardComponents/PostCard';
@@ -12,6 +12,10 @@ function NcaaNews() {
 
    const postPerPage = 9;
    const pagesVisited = pageNumber * postPerPage;
+
+   useEffect(() => {
+      setPosts(postsJson.slice(0, postsJson.length));
+   }, [])
 
    const pageCount = Math.ceil(posts.length / postPerPage);
    const changePage = ({ selected }) => {
