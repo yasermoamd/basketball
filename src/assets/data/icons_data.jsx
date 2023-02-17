@@ -23,8 +23,7 @@ const sidebar_icons = [
       { id: 2, title: "Podcasts", icon: BiPodcast, link: '/podcasts' },
       { id: 3, title: "Drafts", icon: HiOutlineUserGroup, link: '/draftss' },
       { id: 4, title: "NCAA News", icon: HiOutlineNewspaper, link: '/ncaa_news' },
-      { id: 5, title: "Scores", icon: MdOutlineSportsScore, link: 'scores' },
-      { id: 6, title: "NBA News", icon: HiOutlineNewspaper, link: 'nba_news' }
+      { id: 5, title: "NBA News", icon: HiOutlineNewspaper, link: 'nba_news' }
 ];
 
 const more_nav_icons = [

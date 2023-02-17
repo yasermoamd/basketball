@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import { FaSearch } from 'react-icons/fa';
 
-const Searchbar = () => {
+const Searchbar = ({ w, h}) => {
     const [ searchTerm, setSearchTerm ] = useState("");
     const handleSearch = (e) => {
         // implement your code here ...
         setSearchTerm(e.target.value);
     }
+    // w 503px
+    // h 50px
   return (
     <div>
         <div className='w-[503px] h-[50px] border border-[#d8d8d8] flex justify-between items-center'>

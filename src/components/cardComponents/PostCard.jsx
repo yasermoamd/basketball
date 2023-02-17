@@ -2,11 +2,13 @@ import {Link} from 'react-router-dom';
 import React from 'react'
 import { FiShare } from 'react-icons/fi';
 
-function PostCard({ posts, minLength, maxLength }) {
+function PostCard({ posts, pagesVisited,  postPerPage }) {
   return (
-    <div className='laptop:grid laptop:grid-cols-3 laptop:gap-4'>
+    <div className='
+     grid grid-cols-1 gap-[2rem] justify-center items-center p-3
+     laptop:grid laptop:grid-cols-3 laptop:gap-[2.8rem]'>
        {
-        posts.slice(minLength, maxLength).map((post ) => (
+        posts.slice(pagesVisited, pagesVisited + postPerPage).map((post ) => (
              <div key={post.id}
              className='
              w-[14rem] p-0 h-[16rem]

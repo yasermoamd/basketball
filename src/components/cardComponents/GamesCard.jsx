@@ -1,8 +1,8 @@
 import React from 'react' 
 
-function GamesCard() {
+function GamesCard({ bg_color }) {
   return (
-    <div className='bg-[#282828] w-[180px] h-[50px] rounded-xl'>
+    <div className={`bg-[${bg_color}] w-[180px] h-[50px] rounded-xl`}>
        <div className='flex justify-center items-center gap-3'>
         <div className='flex flex-col justify-center items-center mt-1'>
             <img width={22} height={22} className='w-[22px]' src='https://cdn.basketballnews.com/fit-in/36x0/filters:strip_exif():filters:quality(95)/imgs/nba-logos/hou.png' alt='' />
@@ -23,13 +23,3 @@ function GamesCard() {
 
 export default GamesCard;
 
-export const MiniCard = () => {
-    return (
-        <div className='bg-[#282828] flex justify-center text-center w-[70px] h-[50px] rounded-xl'>
-            <div className='flex text-center justify-center gap-2 items-center text-orange-400'>
-                <div><h4 className='font-[Rubik-Light] font-semibold'>Feb</h4></div>
-                <div><h4 className='font-[Rubik-Light] text-[14px]'>13</h4></div>
-            </div>
-        </div>
-    )
-}

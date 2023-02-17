@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],  
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        mainCard: "url('/src/assets/image/main_card.jpg')"
+      }
+    },
     screens: {
       'sm': '380px',
       'tablet': '780px',

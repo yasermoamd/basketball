@@ -1,27 +1,44 @@
-import  { MiniCard, Searchbar, FilterCard, FollowButton, MoreNewsCard, GamesCard, NewsPagination, Footer, PostCardList } from "../../components";
- 
+import React, { useState} from "react";
+import  { MiniCard, Searchbar, FilterCard, FollowButton, MoreNewsCard, GamesCard, Footer } from "../../components";
+import postsJson from '../../assets/data/posts.data.json';
+import PostCard from '../../components/cardComponents/PostCard';
+import './ncaa.module.css';
+import ReactPaginate from 'react-paginate';
+
 
 function NcaaNews() {
+   const [posts, setPosts ] = useState(postsJson.slice(0, postsJson.length));
+   const [pageNumber, setPageNUmber ] = useState(0);
+
+   const postPerPage = 9;
+   const pagesVisited = pageNumber * postPerPage;
+
+   const pageCount = Math.ceil(posts.length / postPerPage);
+   const changePage = ({ selected }) => {
+      setPageNUmber(selected);
+   }
     return (
        <main className="flex">
         <section className='laptop:mt-[4.4rem] laptop:ml-[5rem] desktop:ml-[20rem]'>
         <div className='my-4 flex gap-6 justify-start items-center'>
-            <div><Searchbar /></div>
+            <div><Searchbar w={'503px'} h={'50px'} /></div>
             <div><FilterCard/></div>
          </div>
          <div className="my-6">
             <FollowButton title={'NCAA News'} />
          </div>
      
-        <section className="flex">
-         <div className='mr-8'><MiniCard /></div>
+        <section className="flex gap-2">
          <div className="flex gap-4"> 
-               <GamesCard />
-               <GamesCard />
-               <GamesCard />
-               <GamesCard />
-               <GamesCard />
-               <GamesCard />
+                    <GamesCard bg_color={"#282828"} />
+            </div>
+            <div className='mr-8 flex gap-2'>
+                <MiniCard bg_color={'#282828'} />
+                <MiniCard bg_color={'#282828'} />
+                <MiniCard bg_color={'#282828'} />
+                <MiniCard bg_color={'#282828'} />
+                <MiniCard bg_color={'#282828'} />
+                <MiniCard bg_color={'#282828'} />
             </div>
         </section>
 
@@ -33,12 +50,22 @@ function NcaaNews() {
               <MoreNewsCard title={'More NCAA News Content'} />
             </div>
             <div className='desktop:mt-8 desktop:p-4 laptop:p-4 laptop:mt-8'>
-             <PostCardList minLength={0} maxLength={9} />
+             <PostCard posts={posts} pagesVisited={pagesVisited} postPerPage={postPerPage} />
             </div>
-            <div className='flex justify-center'>
-                 <NewsPagination />
-              </div>
          </section>
+         <div className='desktop:flex desktop:justify-center laptop:flex laptop:justify-center laptop:mt-[2rem]'>
+         <ReactPaginate
+               previousLabel={'Previous'}
+               nextLabel={'Next'}
+               pageCount={pageCount}
+               onPageChange={changePage}
+               containerClassName={'paginationBttns'}
+               previousLinkClassName={'previousBttn'}
+               nextLinkClassName={'nextBttn'}
+               disabledClassName={'paginationDisabled'}
+               activeClassName={'paginationActive'}
+      />
+            </div>
          <div className='flex justify-center laptop:mr-[12rem] mt-8'>
                  <Footer />
               </div>

@@ -10,13 +10,6 @@ export default function Staff() {
             </div>
             <div className="flex gap-4 ml-6">
                 <CircleImage />
-                <CircleImage />
-                <CircleImage />
-                <CircleImage />
-                <CircleImage />
-                <CircleImage />
-                <CircleImage />
-                <CircleImage />
             </div>
            </div>
         </div>

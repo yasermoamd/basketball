@@ -1,0 +1,9 @@
+#scroll-thin {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#scroll-thin::-webkit-scrollbar {
+    scrollbar-width: thin;
+
+}
