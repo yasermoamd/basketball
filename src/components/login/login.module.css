@@ -1,0 +1,4 @@
+.login_register_model{
+    @apply laptop:absolute laptop:top-[6rem] laptop:left-[32.6rem] laptop:bg-[#181818] 
+    laptop:w-[390px] h-[507px] laptop:shadow-2xl
+}

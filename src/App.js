@@ -1,7 +1,8 @@
 import React from 'react';
-import { Route,  Routes } from "react-router-dom";
+import { Navigate, Route,  Routes } from "react-router-dom";
 import { Home, Podcasts, NbaNews, Search, NcaaNews, Draftss } from './pages';
 import Layout from './layout/Layout';
+import ContactUs from './pages/contact_us';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Route path='/nba_news' element={<NbaNews />}  />
         <Route path='/ncaa_news' element={<NcaaNews />}  />
         <Route path='/search' element={<Search />}  />
+        <Route path='/contact_us' element={<ContactUs />}  />
+        <Route path='*' element={<Navigate to='/' />}  />
        </Routes>
     </Layout>
   );

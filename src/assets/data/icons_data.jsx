@@ -36,7 +36,7 @@ const more_nav_icons = [
       { id: 7, title: "Teams", icon: CiBasketball, link: '#' },
       { id: 8, title: "Standings", icon: TfiCup, link: '#' },
       { id: 9, title: "Charts", icon: AiOutlineLineChart, link: '#' },
-      { id: 10, title: "Contact Us", icon: MdEmail, link: '#' }
+      { id: 10, title: "Contact Us", icon: MdEmail, link: '/contact_us' }
 ];
 
 
