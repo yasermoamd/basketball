@@ -3,7 +3,8 @@
         "id": 1,
         "title": "The Rex Chapman Show",
         "description": "Rex Chapman and Josh Hopkins",
-        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/15/rex_chapman_podcast.jpg"
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/15/rex_chapman_podcast.jpg",
+        "content": "Join NBA legend and the King of Twitter Rex Chapman and one of his closest friends, actor Josh Hopkins, for The Rex Chapman Show. This podcast will feature special guests, the latest storylines from the NBA and personal stories from Rex and Josh about rising to the top of their industries from humble beginnings in Lexington, KY. The Rex Chapman Show is powered by BasketballNews.com and produced by Next Chapter Podcasts."
     },
      
      
@@ -11,20 +12,23 @@
         "id": 2,
         "title": "Neat & Unfiltered",
         "description": "With Kenyon Martin Sr. & Jadakiss",
-        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/12/n-u.png"
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/12/n-u.png",
+        "content": "Former NBA All-Star and No. 1 overall NBA Draft pick Kenyon Martin brings his fearless personality and brutal honesty to the podcast space with Neat & Unfiltered. Joining Kenyon as co host is Rap Superstar Jadakiss.  One of his generation’s most respected rappers, Jadakiss got his start with the LOX before transitioning to a successful solo career. Together they will sit down with high-profile guests from all walks of life including musicians, entertainers and athletes. In addition to his raw opinions that fans know and love, Kenyon also talks about fashion, entertainment and his wide range of interests. New episodes drop every Wednesday!"
     },
     {
         "id": 3,
         "title": "Nothing But Bets",
         "description": "WITH EVAN SIDERY",
-        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/18/nothing-but-bets-logo.jpg"
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/18/nothing-but-bets-logo.jpg",
+        "content": "Description: Evan Sidery breaks down all the latest NBA betting trends, spreads, props, plus news and rumors every day. Nothing But Bets is part of the BasketballNews.com Podcast Network."
     },
 
     {
         "id": 4,
         "title": "The Posecast",
         "description": "THE JAMES POSEY PODCAST",
-        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/8/pose-cast-v3.jpg"
+        "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/8/pose-cast-v3.jpg",
+        "content": "Dishes & Dimes is an NBA podcast hosted by Sandie, Katie, Imman, and Yasmin. We will bring you new podcast episodes straight outta Toronto every Monday. Dishes & Dimes is the the femme-lead basketball podcast you've been looking for, and we can guarantee fresh perspectives from our rotating cast of hosts, which include basketball writers and fans of the sport!"
     },
     {
         "id": 5,
@@ -37,13 +41,15 @@
     "id": 6,
     "title": "The Rematch",
     "description": "WITH ETAN THOMAS",
-    "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/11/the-raw-truth-2.png"
+    "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/11/the-raw-truth-2.png",
+    "content": "Three-time NBA champion James Posey sits down with his former NBA teammates and rivals to share never-before-told stories and relive their battles. With 20 years of NBA experience (as a player and as a coach), Posey also mixes in X-and-Os talk and in-depth analysis. New episodes drop every Thursday!"
    },
 
 {
     "id": 7,
     "title": "Keepin' It 94",
     "description": "WITH SPENCER DAVIES AND BRIAN FRITZ",
-    "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/13/uploads_2f1612281993772-ng4hvig0yr-6397c6a371761e57962dadf814367f90_2fk94-wide.png"
+    "imgUrl": "https://cdn.basketballnews.com/fit-in/1024x0/filters:strip_exif():filters:quality(95)/images/podcasts/13/uploads_2f1612281993772-ng4hvig0yr-6397c6a371761e57962dadf814367f90_2fk94-wide.png",
+    "content": "Hosted by Etan Thomas, The Rematch focuses on athlete interviews that examine the love-hate relationship between players and the media. The goal is to give athletes a chance to reclaim their identities from the stigma of getting pegged with such labels as polarizing, mercurial and immature."
 }
 ]

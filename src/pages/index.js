@@ -5,6 +5,8 @@ import Podcasts from './podcasts';
 import NcaaNews from './ncaa_news'
 import Draftss from './draftss'
 import ContactUs from './contact_us';
+import PostPreview from './ContentPreview/PostPreview';
+import PodcastsPreview from './ContentPreview/PodcastsPreview';
 
 export  {
     Home,
@@ -14,4 +16,6 @@ export  {
     NcaaNews,
     Draftss,
     ContactUs,
+    PostPreview,
+    PodcastsPreview
 }

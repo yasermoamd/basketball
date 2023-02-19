@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
 import { FaSearch } from 'react-icons/fa';
+import AppContext from '../../context/AppContext';
 
 const Searchbar = ({ w, h}) => {
-    const [ searchTerm, setSearchTerm ] = useState("");
+    const {searchTerm, setSearchTerm}  = useContext(AppContext);
     const handleSearch = (e) => {
         // implement your code here ...
         setSearchTerm(e.target.value);
