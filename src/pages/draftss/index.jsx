@@ -41,7 +41,7 @@ function Draftss() {
            <FeaturedStaff title={'DRAFT NEWS'} />
       </div>
       <div className='laptop:grid laptop:grid-cols-1 laptop:gap-4 desktop:grid desktop:grid-cols-1 desktop:gap-4'>
-          <DraftsNewsCard />
+           <DraftsNewsCard />
           </div>
       </div>
     </div>
