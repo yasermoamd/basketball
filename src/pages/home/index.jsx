@@ -59,9 +59,8 @@ function Home() {
                     pagesVisited={pagesVisited} />
                </div>
             </div>
-          <div className='desktop:flex  laptop:flex 
-                          laptop:justify-center laptop:mt-[2rem]'>
-          <ReactPaginate
+            <div className='desktop:flex desktop:mr-[4rem] desktop:justify-center laptop:flex laptop:justify-center laptop:mt-[2rem]'>
+         <ReactPaginate
                previousLabel={'Previous'}
                nextLabel={'Next'}
                pageCount={pageCount}
@@ -72,8 +71,8 @@ function Home() {
                disabledClassName={'paginationDisabled'}
                activeClassName={'paginationActive'}
       />
-                    </div>
-              <div className='desktop:ml-[12rem] desktop:mt-[4rem] laptop:mt-[4rem]'>
+              </div> 
+              <div className='desktop:ml-[2rem] desktop:mt-[4rem] laptop:mt-[4rem]'>
                  <Footer />
               </div>
       </section>

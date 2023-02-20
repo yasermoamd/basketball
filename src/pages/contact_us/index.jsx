@@ -2,12 +2,12 @@ import { Footer } from "../../components";
 
 export default function ContactUs() {
     return (
-      <main className="flex flex-col">
-      <section className='
-             desktop:ml-[20rem] desktop:mt-[4rem]
-             laptop:ml-[18.5rem] laptop:mt-[5.8rem] tablet:ml-[6.5rem] tablet:mt-[4.6rem]'>
-       <div className=" bg-[#202020] w-[800px] min-h-screen">
-            <div className='bg-[#282828] w-[780px] h-[497px] shadow-lg rounded-md text-[#d8d8d8] p-4 flex flex-col'>
+      <main className="flex justify-center flex-col">
+        <section className='
+             desktop:ml-[35rem] desktop:mt-[6rem]
+             laptop:ml-[4.5rem] laptop:mt-[4.8rem] tablet:ml-[6.5rem] tablet:mt-[4.6rem]'>
+       <div className=" bg-[#202020] flex justify-center w-[800px] h-[520px]">
+            <div className='bg-[#282828] mt-3 w-[780px] h-[497px] shadow-lg rounded-md text-[#d8d8d8] p-4 flex flex-col'>
                 <h1 className='text-[2rem] font-bold font-serif'>BasketballNews.com Contact Information</h1>
                 <p>
                    General questions: <span className="underline decration-1">info@basketballnews.com</span>
@@ -33,8 +33,8 @@ export default function ContactUs() {
             </div>
          </div>
         </section>
-        <div className='laptop:ml-[6.6rem] desktop:mt-[4rem] w-[800px] min-h-screen'>
-                <div>
+        <div className='laptop:ml-[6.6rem] desktop:mt-[4rem]  w-[800px] min-h-screen'>
+                <div className='desktop:ml-[16.5rem]'>
                     <Footer />
                 </div>
               </div>
