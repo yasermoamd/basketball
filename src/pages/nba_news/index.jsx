@@ -24,7 +24,7 @@ function NbaNews() {
        <main className="flex">
         <section className='laptop:mt-[4.4rem] laptop:ml-[5rem] desktop:ml-[20rem]'>
         <div className='my-4 flex gap-6 justify-start items-center'>
-            <div><Searchbar w={'503px'} h={'50px'} /></div>
+            <div><Searchbar /></div>
             <div><FilterCard/></div>
          </div>
          <div className="my-6">

@@ -6,7 +6,8 @@ function Draftss() {
   return (
     <div className='laptop:flex laptop:flex-col laptop:justify-between laptop:items-center laptop:container laptop:mx-auto'>
      <div className='laptop:ml-[4.4rem] mt-4 flex  gap-4 p-2 desktop:ml-[8rem]'>
-     <div className='bg-[#202020] w-[800px] desktop:min-h-screen  laptop:min-h-screen  laptop:ml[4.5rem] laptop:mt-[3.9rem]'>
+      <section className='flex flex-col gap-4'>
+      <div className='bg-[#202020] w-[820px] desktop:min-h-screen  laptop:min-h-screen  laptop:ml[4.5rem] laptop:mt-[3.9rem]'>
         
         <div className='my-4'> <FeaturedStaff title={'Featured Staff'} /></div>
         <div className='my-2 p-4'><RandomImage /></div>
@@ -23,10 +24,18 @@ function Draftss() {
            <DraftCard number={'05'} />
            <DraftCard number={'06'} />
         </div>
-        <div className='desktop:flex desktop:justify-center desktop:mt-[4rem]'>
+        <div className='desktop:flex desktop:justify-center desktop:mt-[3rem] desktop:mb-2'>
           <button className='bg-[#d8d8d8c7] text-black p-2 rounded-sm shadow-lg'>Load More</button>
       </div>
       </div>
+      
+       <div className='laptop:grid laptop:grid-cols-1 laptop:gap-4 desktop:grid desktop:grid-cols-2 desktop:gap-6 bg-[#202020] desktop:w-[820px] desktop:min-h-screen desktop:p-4'>
+          <DraftsNewsCard />
+          <DraftsNewsCard />
+          </div>
+
+      </section>
+
       <div className='bg-[#202020] w-[433px]  laptop:min-h-screen p-5 laptop:ml[4rem] laptop:mt-[3.9rem]'>
       <div className='mb-4'> 
            <FeaturedStaff title={'DRAFT NEWS'} />
