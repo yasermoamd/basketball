@@ -10,11 +10,6 @@ export default function AppContextProvider({ children }) {
     const [isRegister, setIsRegister] = useState(false);
     const [posts, setPosts ] = useState([])
     const [ pageNumber, setPageNUmber] = useState(0);
-
-    useEffect(() => {
-        setPosts(postdata);
-        
-    },[])
     const value = {
         searchTerm,
         setSearchTerm,

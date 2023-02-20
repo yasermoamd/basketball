@@ -12,7 +12,7 @@ function App() {
         <Route path='/draftss' element={<Draftss />}  />
         <Route path='/nba_news' element={<NbaNews />}  />
         <Route path='/podcasts' element={<Podcasts />}  />
-        <Route path='/podcasts/:title' element={<PodcastsPreview />} />
+        <Route path='/podcasts/:slug' element={<PodcastsPreview />} />
         <Route path='/nba_news' element={<NbaNews />}  />
         <Route path='/podcasts/:id' element={<PostPreview />} />
         <Route path='/ncaa_news' element={<NcaaNews />}  />
