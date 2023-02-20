@@ -9,7 +9,7 @@ function Podcasts() {
         grid grid-cols-1 justify-center items-center ml-[4rem]
         desktop:flex desktop:justify-center desktop:flex-col
         laptop:flex laptop:flex-col laptop:gap-[1rem] laptop:justify-center laptop:items-center'> 
-             <div className=''>
+             <div className='desktop:mt-[1.5rem]'>
              <div className='mt-[4.8rem]'> 
                  <FeaturedStaff title={'PODCASTS'} />
                  </div>

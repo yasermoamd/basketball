@@ -3,7 +3,7 @@ import { FiShare } from 'react-icons/fi';
 export default function MainCard() {
     return (
         <div className="
-             flex flex-col justify-end gap-8
+             flex flex-col justify-end gap-8 desktop:w-[820px] desktop:h-[400px]
              bg-mainCard bg-no-repeat bg-contain laptop:w-[700px] laptop:h-[400px]">
                <div className='bg-black bg-opacity-20 flex flex-col gap-[1rem]'>
                <div className='text-[#d8d8d8] font-bold text-2xl'>

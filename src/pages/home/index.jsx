@@ -20,11 +20,12 @@ function Home() {
    }
   return (
     
-     <main className='flex flex-col gap-[10rem]'>
+     <main className='flex flex-col justify-center gap-[10rem]'>
       <section className='
              desktop:ml-[20rem] desktop:mt-[4rem]
              laptop:ml-[4.5rem] laptop:mt-[4.8rem] tablet:ml-[6.5rem] tablet:mt-[4.6rem]'>
-          <div className='desktop:w-[80rem] desktop:h-[80px] laptop:w-[78.5rem] laptop:mt-2 laptop:rounded-sm 
+          
+          <div className='desktop:w-[80rem] desktop:h-[80px] desktop:mt-[1.4rem] laptop:w-[78.5rem] laptop:mt-2 laptop:rounded-sm 
                 laptop:shadow-sm  laptop:bg-[#282828]'>
                   <div className='flex flex-col gap-2 p-2 laptop:shadow-sm  laptop:bg-[#282828]'>
                   <div><FeaturedStaff title={'FEATURED STAFF'} /></div>
@@ -35,7 +36,8 @@ function Home() {
           </div>
 
          <div className='
-               flex gap-4 justify-center
+               flex gap-4 justify-center desktop:w-[80rem] desktop:mt-[4.8rem]
+               desktop:fex  desktop:justify-around
                laptop:mt-[0.1rem] laptop:rounded-sm  laptop:w-[78.5rem]
                laptop:shadow-sm  laptop:bg-[#282828] laptop:p-4'>
            <div> 
@@ -57,7 +59,7 @@ function Home() {
                     pagesVisited={pagesVisited} />
                </div>
             </div>
-          <div className='desktop:flex desktop:justify-center laptop:flex 
+          <div className='desktop:flex  laptop:flex 
                           laptop:justify-center laptop:mt-[2rem]'>
           <ReactPaginate
                previousLabel={'Previous'}
