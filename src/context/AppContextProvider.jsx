@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import AppContext from "./AppContext";
 import postdata from '../assets/data/posts.data.json';
 
@@ -8,8 +8,9 @@ export default function AppContextProvider({ children }) {
     const [isOpen, setIsOpen] = useState(false);
     const [isLogin, setIsLogin ] = useState(false);
     const [isRegister, setIsRegister] = useState(false);
-    const [posts, setPosts ] = useState([])
+    const [posts, setPosts ] = useState(postdata)
     const [ pageNumber, setPageNUmber] = useState(0);
+
     const value = {
         searchTerm,
         setSearchTerm,

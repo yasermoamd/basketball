@@ -1,6 +1,5 @@
-import { useContext } from "react";
-import { Navigate, useParams } from "react-router-dom"
-import AppContext from "../../context/AppContext";
+import { useParams } from "react-router-dom"
+
 
 function PodcastsPreview() {
     const { slug  } = useParams;

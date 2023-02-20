@@ -15,9 +15,7 @@ function Login() {
      setIsRegister(!isRegister);
      setIsLogin(false);
   }
-  const handleClose = () => {
-    //
-  }
+ 
   return (
     <div>
        <div className='flex justify-start items-center gap-4' onClick={() => setIsOpen(!isOpen)}>
@@ -48,7 +46,4 @@ function Login() {
   )
 }
 
-export default Login
-
-
-const LoginFourm = () =>{return(<></>)}
+export default Login;
